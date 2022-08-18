@@ -1,0 +1,4 @@
+#sudo yum install gh
+#git clone https://username:"$GHPASSWORD"@github.com/username/repository.git
+echo https://milldrew:"$GHPASSWORD"@github.com/milldrew/tmux.git
+git clone https://milldrew:"$GHPASSWORD"@github.com/milldrew/tmux.git

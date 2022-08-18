@@ -1,0 +1,6 @@
+
+mkdir .config
+git -C ./.config clone --depth 1 https://milldrew:"$GHPASSWORD"@github.com/milldrew/tmux.git
+git -c ./.config clone --depth 1 https://milldrew:"$GHPASSWORD"@github.com/milldrew/powerline-shell.git
+git -C ./.config clone --depth 1 https://milldrew:"$GHPASSWORD"@github.com/milldrew/nvim.git
+git -C ./.config clone --depth 1 https://milldrew:"$GHPASSWORD"@github.com/milldrew/bash-config.git
